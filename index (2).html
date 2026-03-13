@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <title>พี่เอ็ม ออนิว</title>
+    <style>
+        body { background-color: #2b003d; color: white; font-family: 'Sarabun', sans-serif; text-align: center; padding: 20px; }
+        .box { background: #4a0072; border: 3px solid #9d4edd; padding: 20px; border-radius: 20px; display: inline-block; max-width: 90%; box-shadow: 0 0 15px #9d4edd; }
+        img { width: 100%; max-width: 300px; border-radius: 10px; border: 2px solid white; margin: 15px 0; }
+        ul { text-align: left; display: inline-block; color: #e0aaff; }
+        button { background: #7b2cbf; color: white; border: none; padding: 10px; border-radius: 5px; cursor: pointer; margin: 5px; }
+        input { padding: 8px; border-radius: 5px; border: none; }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <h1>ประวัติพี่เอ็ม ออนิว</h1>
+        <img src="https://thethaiger.com/th/wp-content/uploads/2025/12/594963086_1375335617269806_7515055704741260771_n.jpg">
+        <p>ตำนานมีมโซเชียลไทยที่มาพร้อมความเฟี้ยว</p>
+        <ul>
+            <li>ขับเครื่องบินได้</li>
+            <li>ปลอมตัวเก่ง</li>
+            <li>กินน้ำแข็งได้</li>
+        </ul>
+        <p><a href="https://thethaiger.com/th/news/1498731/" target="_blank" style="color: #ff9e00;">อ่านข่าวเพิ่มเติม</a></p>
+        <div style="border-top: 1px solid #7b2cbf; padding-top: 10px;">
+            <button onclick="alert('ยินดีต้อนรับครับ!')">ต้อนรับ</button><br>
+            <input type="text" id="u" placeholder="ใส่ชื่อ">
+            <button onclick="document.getElementById('r').innerText='สวัสดี '+document.getElementById('u').value">ทักทาย</button>
+            <p id="r"></p>
+        </div>
+    </div>
+</body>
+</html>
